@@ -1,0 +1,5 @@
+root:x:0:0:root:/root:/bin/bash
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+pollinate:x:105:1::/var/cache/pollinate:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
