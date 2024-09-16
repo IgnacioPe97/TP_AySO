@@ -1,0 +1,184 @@
+vagrant uo
+vagrant up
+ls -l
+cd
+ls -ll
+ll
+ls -la
+ls -la ../
+ls -la $HOME
+ls -la /home/vagrant/
+ls -la /home/vagrant
+ls -la /home/.ssh/
+ls -la /home/.ssh
+ls -la /.ssh
+ls -la /home/vagrant/.ssh
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -la /home/vagrant/.ssh
+ls -la /home/.ssh
+ls -la
+.ssh/
+cd/.ssh
+ls -la
+ls .ssh/
+cat .ssh/id_ed25519.pub 
+ll
+git clone git@github.com:IgnacioPe97/TP_AySO.git
+ll
+cd TP_AySO/
+git status
+ll
+git status
+git commit -m "add: primer commit"
+git config --global user.email "ignacio.pereyra.3k@gmail.com"
+git commit -m "add: primer commit"
+git status
+git add. 
+git --help
+git commit -m " primer commit"
+git status
+git add
+git add .
+git status
+git commit -m " primer commit"
+git status
+git push
+git status
+cd
+man
+man man
+man grep
+cd 
+cd TP_AySO/
+echo hola
+echo hola > unarchivo
+cat unarchivo
+ls -l
+ls -l > unarchivo
+cat unarchivo 
+echo hola >> unarchivo
+cat unarchivo
+bc<<<5+2
+man bc
+wc -l << EOF
+L1
+L2
+L3
+EOF
+
+cat << FIN > OTROARCHIVO
+L1
+L2
+L3
+FIN
+
+ll
+cat OTROARCHIVO 
+ps
+man ps
+ls
+cd
+ls
+cd
+ls
+ls -l
+ls
+l
+cd
+ls
+ll
+cd
+ls
+ll
+cd TP_AySO/
+LS
+ls
+cat /etc/os-release
+man grep
+whoami
+grep HOME /etc/os-release
+grep HOME_URL /etc/os-release
+grep https://www.ubuntu.com/etc.os-release
+cd
+ls
+whoami
+id
+ls
+cd
+ls
+ll
+cd TP_AySO/
+ls
+cat /etc/os-release
+man grep 
+man "HTTPS://WWW.UBUNTU.COM" /etc/os-release
+grep "https://www.ubuntu.com" /etc/os-release
+grep "https://www.ubuntu.com/" /etc/os-release
+man
+man grep 
+grep -i "HTTPS//WWW.UBUNTU.COM" /etc.os-release
+grep -i "HTTPS//WWW.UBUNTU.COM" /etc/os-release
+whoiam
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+git config --global user.email "ignacio.pereyra.3k@gmail.com"
+git config --global user.name "IgnacioPe97"
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+cpuinfo
+grep
+tail -n1
+ll
+ls
+cd TP_AySO/
+ll
+cd datos_usuario.txt
+ll
+ls cpu
+lscpu
+tail -n1
+grep -m 1 "model name" /proc/cpuinfo
+grep -m 1 'Processor' /proc/cpuinfo
+cat /proc/cpuinfo
+grep -m 1 'CPU implementer' /proc/cpuinfo
+ll
+grep -m 1 'CPU implementer' /proc/cpuinfo >> datos_usuario.txt
+cat datos_usuario.txt 
+git add datos_usuario.txt 
+git commit -m "feat: Anadiendo informacion de CPU""
+git commit -m "feat: Anadiendo informacion de CPU"
+git status
+git push
+git status
+wc -l /etc/passwd
+grep -v 'nologin' /etc/passwd
+grep -v 'nologin' /etc/passwd | head -n 10
+grep -v 'nologin' /etc/passwd | head -n 10 | sort -t: -k7
+grep -v 'nologin' /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+ll
+cat lista_ordenada 
+git add lista_ordenada 
+git commit -m "ADD: Listado de usuarios ordenado""
+git commit -m "ADD: Listado de usuarios ordenado"
+git commit -m "ADD: Listado de usuarios ordenado"
+git push 
+got status
+git status
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i any -c 10" >> comando_dump_net
+cat comando_dump_net
+git add comando_dump_net 
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+cat <<EOF >> README.md
+Alumno: Ignacio Pereyra
+División: <313-2>
+Turno: <Noche>
+EOF
+
+cat README.md 
+git add README.md 
+git commit -m "docs: agregando nombre, division y turno, dentro de archivo readme"
+history -a $HOME/.bash_history 
